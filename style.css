@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(190, 187, 181);
+}
+
 img{
     border-radius: 20%;
     margin-left: auto;
@@ -6,6 +10,8 @@ img{
     display: block;
 }
 .content{
+    background-color: rgb(206, 203, 197);
+
     margin-top: 80px;
     padding: 10px;
     margin-left: auto;
@@ -19,7 +25,24 @@ li{
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
     list-style: circle;
+    
+}
+a{
+    text-decoration:none;
 }
 .fab{
     margin: 10px;
+}
+
+#quote{
+    font-family: 'Proxima Nova';
+    font-style: italic;
+    margin: 15px;
+}
+
+#next{
+    text-align: center;
+    background-color: grey;
+    border-radius: 60%;
+    color: white;
 }
