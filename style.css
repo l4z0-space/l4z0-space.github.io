@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(190, 187, 181);
+    background-color: rgb(255, 255, 255);
 }
 
 img{
@@ -10,13 +10,12 @@ img{
     display: block;
 }
 .content{
-    background-color: rgb(206, 203, 197);
-
-    margin-top: 80px;
+    background-color: rgb(245, 245, 245);
+    margin-top: 90px;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 50%;
     display: block;
     font-family: 'Courier New', Courier, monospace;
     border-style: groove;
