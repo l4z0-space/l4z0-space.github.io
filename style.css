@@ -1,36 +1,47 @@
 body{
-    background-color: rgb(255, 255, 255);
+    /* background-color: #d5846b; */
+
+    background: #d5846b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d5846b, #e7a94d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d5846b, #e7a94d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 img{
-    border-radius: 20%;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
-    display: block;
+    width: 100%;
+    /* min-height: 500px;
+    min-width: 400px; */
 }
+
 .content{
-    background-color: rgb(245, 245, 245);
+    /* background-color: #d5846b;; */
     margin-top: 90px;
     padding: 10px;
+    width: 90%;
+    /* font-family: 'Courier New', Courier, monospace; */
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    display: block;
-    font-family: 'Courier New', Courier, monospace;
-    border-style: groove;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap: 20px; */
+    
 }
 li{
-    font-size: 16px;
+    font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
-    list-style: circle;
-    
+    list-style: none;
+    color: black;
+    padding-top: 10px ;
 }
 a{
     text-decoration:none;
 }
 .fab{
-    margin: 10px;
+    margin: 20px;
+    size: 40px;
+    color: black;
 }
 
 #quote{
@@ -54,18 +65,43 @@ a{
 }
 
 .projects{
-    background-color: rgb(255, 255, 255);
     padding: 20px;
     margin:auto;
     width: 60%;
     display: grid;
-    /* border-style: dotted; */
     grid-template-columns: auto auto auto;
-    overflow: scroll;
+    /* overflow: scroll; */
 
 }
 
-.projects > div{
-    padding: 10px;
-    border-style: none;
+.card {
+    background-color: inherit;
+    margin: auto;
+    padding: 20px 40px 40px;
+    border-bottom: 4px solid rgb(221, 214, 214);
 }
+
+.card:hover{
+    background-color: rgb(194, 194, 194);
+}
+
+.right{
+    /* padding-right: 100px; */
+    margin: auto;
+}
+
+.name{
+    font-size: 50px;
+    margin-top: 20px;
+    font-style: normal;
+}
+/* 
+.left{
+    padding-left: 50px;
+    width: 900px;
+} */
+
+
+
+
+
