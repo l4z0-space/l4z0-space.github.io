@@ -1,47 +1,57 @@
+
+
 body{
     /* background-color: #d5846b; */
+    background: url("./docs/cartoon.png" ) no-repeat center center fixed; 
+    background-size: 1100px;
 
-    background: #d5846b;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #d5846b, #e7a94d);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #d5846b, #e7a94d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    -webkit-background-size: 1100px;
+    background-color: #d5846b;  /* fallback for old browsers */
+    background-position: auto; 
+    
 }
 
 img{
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
     width: 100%;
-    /* min-height: 500px;
-    min-width: 400px; */
 }
 
 .content{
-    /* background-color: #d5846b;; */
     margin-top: 90px;
     padding: 10px;
     width: 90%;
-    /* font-family: 'Courier New', Courier, monospace; */
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* grid-gap: 20px; */
-    
 }
+
 li{
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     list-style: none;
-    color: black;
-    padding-top: 10px ;
+    /* color: rgba(73, 35, 10, 0.644); */
+    color: white;
+    padding-bottom: 10px ;
+    font-weight: bold;
+    font-family: Salsa;
 }
+
+li:hover{
+    color: grey;
+}
+
 a{
     text-decoration:none;
 }
+
 .fab{
     margin: 20px;
     size: 40px;
-    color: black;
+    color: white;
+}
+.fab:hover{
+    color: grey;
 }
 
 #quote{
@@ -49,14 +59,12 @@ a{
     font-style: italic;
     margin: 15px;
 }
-
 #next{
     text-align: center;
     background-color: grey;
     border-radius: 60%;
     color: white;
 }
-
 
 #header {
     text-align: center;
@@ -71,6 +79,7 @@ a{
     display: grid;
     grid-template-columns: auto auto auto;
     /* overflow: scroll; */
+    background-color: #d5846b;
 
 }
 
@@ -86,22 +95,21 @@ a{
 }
 
 .right{
-    /* padding-right: 100px; */
     margin: auto;
 }
 
 .name{
-    font-size: 50px;
+    font-size: 65px;
     margin-top: 20px;
-    font-style: normal;
+    font-family: Salsa;
+    color: white;
 }
-/* 
-.left{
-    padding-left: 50px;
-    width: 900px;
-} */
 
+.line{
+    margin-top: -45px;
+    border: 3px solid grey;
+}
 
-
-
-
+.line2{
+    border: 3px solid grey;
+}
