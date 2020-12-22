@@ -7,7 +7,7 @@ body{
 
     -webkit-background-size: 1100px;
     background-color: #d5846b;  /* fallback for old browsers */
-    background-position: auto; 
+    background-position: 10% 100%; 
     
 }
 
