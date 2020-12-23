@@ -2,12 +2,10 @@
 
 body{
     /* background-color: #d5846b; */
-    background: url("./docs/cartoon.png" ) no-repeat center center fixed; 
+    background: url("./docs/cartoonMe.png" ) no-repeat center center fixed; 
     background-size: 1100px;
-
     -webkit-background-size: 1100px;
     background-color: #d5846b;  /* fallback for old browsers */
-    
 }
 
 img{
