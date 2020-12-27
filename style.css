@@ -42,7 +42,7 @@ a{
     text-decoration:none;
 }
 
-.fab{
+.fab,.fas{
     margin: 20px;
     size: 40px;
     color: white;
@@ -109,4 +109,8 @@ a{
 
 .line2{
     border: 3px solid grey;
+}
+
+.mail{
+    font-size: 16px;
 }
