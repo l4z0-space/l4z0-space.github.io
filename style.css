@@ -1,11 +1,9 @@
-
-
 body{
     /* background-color: #d5846b; */
     background: url("./docs/cartoonMe.png" ) no-repeat center center fixed; 
     background-size: 1100px;
     -webkit-background-size: 1100px;
-    background-color: #d5846b;  /* fallback for old browsers */
+    background-color: #7d807a;  /* fallback for old browsers */
 }
 
 img{
@@ -47,7 +45,7 @@ a{
     size: 40px;
     color: white;
 }
-.fab:hover{
+.fas:hover,.fab:hover{
     color: grey;
 }
 
@@ -76,7 +74,6 @@ a{
     display: grid;
     grid-template-columns: auto auto auto;
     /* overflow: scroll; */
-    background-color: #d5846b;
 
 }
 
@@ -84,7 +81,8 @@ a{
     background-color: inherit;
     margin: auto;
     padding: 20px 40px 40px;
-    border-bottom: 4px solid rgb(221, 214, 214);
+    background-color: rgb(194, 194, 194);
+
 }
 
 .card:hover{
@@ -104,11 +102,11 @@ a{
 
 .line{
     margin-top: -45px;
-    border: 3px solid grey;
+    border: 1px solid rgb(243, 241, 241);
 }
 
 .line2{
-    border: 3px solid grey;
+    border: 1px solid rgb(241, 241, 241);
 }
 
 .mail{
