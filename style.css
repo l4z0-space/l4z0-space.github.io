@@ -33,7 +33,7 @@ li{
 }
 
 li:hover{
-    color: grey;
+    color: black;
 }
 
 a{
@@ -46,7 +46,7 @@ a{
     color: white;
 }
 .fas:hover,.fab:hover{
-    color: grey;
+    color: black;
 }
 
 #quote{
