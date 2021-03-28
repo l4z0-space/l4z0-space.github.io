@@ -1,10 +1,3 @@
-body{
-    /* background-color: #d5846b; */
-    background: url("./docs/cartoonMe.png" ) no-repeat center center fixed; 
-    background-size: 1100px;
-    -webkit-background-size: 1100px;
-    background-color: #7d807a;  /* fallback for old browsers */
-}
 
 img{
     margin:auto;
@@ -78,11 +71,8 @@ a{
 }
 
 .card {
-    background-color: inherit;
     margin: auto;
     padding: 20px 40px 40px;
-    background-color: rgb(194, 194, 194);
-
 }
 
 .card:hover{
