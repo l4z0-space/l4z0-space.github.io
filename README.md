@@ -1,1 +1,1 @@
-# www.lazo.website
+https://l4z0-space.github.io/
